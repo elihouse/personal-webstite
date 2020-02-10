@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	 <title>Eli House</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="style.css" type="text/css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+
+
+<!-- Search box-->
+<meta name="text:Search Label" content="" />
+  <script type="text/javascript" src="https://static.tumblr.com/p2evvtm/Wycm17d1m/tumblr_search_box.js"></script>
+  <body>
+
+<div id="main">
+<h1>Elijah House</h1>
+  
+<hr></hr>
+
+
+    <div class="sidenav">
+      <a href="#Home">Home</a>
+      <a href="#Resume">Resume</a>
+      <a href="#Projects">Projects</a>
+      <a href="#Blog">Blog</a>
+      <button class="dropdown-btn">More
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+      <a href="#search">Search</a>
+      <form onsubmit="return tagSearch(this)">
+        <input type="text" name="tag" value="Search" onfocus="if (this.value == '{text:Search Label}’) {this.value="} onblur="if (this.value == ") {this.value=’{text:Search Label}’}" />
+        <input type="submit" value="Search" />
+    </form>
+    </div>
+<p>Email me for more</p>
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+  <input
+    name="email"
+    id="email"
+    type="email"
+    placeholder="Enter your email address"
+    required
+    />
+    <input id="submit" type="submit" value="Get Started" class="btn" />
+    </form>
+
+    <p id="two">I will use this website to show off my projects and serve as a resume site listing my jobs and internships. There will also be a blog section where I will write about stuff I find interesting.</p>
+    
+    <img src="/Users/elihouse/Desktop/Not School/Website/img/banner.jpg" alt="Banner">
+    <div class="wrapper">
+      <article class="img-info">
+        <h2>Yay!</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </article> 
+      <img src="/Users/elihouse/Desktop/Not School/Website/img/me.jpg" alt="Eli House"/>
+    </div>
+  </div>
+  <style>
+    div {
+      height: 40px;
+      width: 70%;
+      background: black;
+      margin: 50px auto;
+      border-radius: 5px;
+      position: relative;
+    }
+  
+    #rect {
+      animation-name: rainbow;
+      animation-duration: 4s;
+    }
+  
+    @keyframes rainbow {
+      0% {
+        background-color: blue;
+        top: 0px;
+        left: 0px;
+      }
+      50% {
+        background-color: green;
+        top: 50px;
+        left: 25px;
+      }
+      100% {
+        background-color: yellow;
+        top: 0px;
+        left:-25px;
+      }
+    }
+  </style>
+
+
+  </body>
+</html>
+
+<!-- A one page website that can scroll down to each section but will still have a menu 
+Use Side nav in. The website will open with a nice photo.
+I want the experenece to be somewhat "surreal"  remember @media
+max height and @img !----!-->
